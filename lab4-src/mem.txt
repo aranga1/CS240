@@ -1,0 +1,20 @@
+CS 240 Memory
+
+
+Variable            		 Address         	       Value          
+-------------------		---------------                ------------- 
+str				 0x7FFC2B5962B0		       48 65 6C 6C 6F 20 77 6F 72 6C 64 0A 00 0 00 00  Hello world
+a				 0x7FFC2B596278			5
+b				 0x7FFC2B59627C			-5
+y				 0x7FFC2B596280			12	
+x.a				 0x7FFC2B596290			41 A
+x.i				 0x7FFC2B5962A4			09 9
+x.b				 0x7FFC2B5962C8			30 0
+x.p				 0x7FFC2B5962F0			94 62 59 2B FC 7F 00 00 CD 0A 40
+head				 0x223c010		        30 C0 23 02 00 00 00 00 50 C0 23 02
+head->str			 0x223C030			57 65 6C 63 6F 6D 65 20
+head->next			 0x223C050			50 30 03 01
+head->next->str		 	 0x223C050			70 30 03 01
+head->next->next		 0x223C090			90 30 03 01
+head->next->next->str	 	 0x223C070			74 6F 20
+head->next->next->next	 	 0x223C080		        The value is printed after the men dump

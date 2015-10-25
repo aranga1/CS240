@@ -1,0 +1,7 @@
+Host Name: lore.cs.purdue.edu
+Architecture: SunOS lore.cs.purdue.edu 5.10 Generic_150400-24 sun4u sparc SUNW,Sun-Fire-V445
+Endianess : Machine is Big Endian
+
+Host Name: data.cs.purdue.edu
+Architecture: Linux data.cs.purdue.edu 4.0.9 #1 SMP Sun Aug 16 08:17:13 EDT 2015 x86_64 Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz GenuineIntel GNU/Linux
+Endianess : Machine is Little Endian

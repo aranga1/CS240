@@ -1,0 +1,12 @@
+Address                 Variable/function       Section
+main=0x4005b2	        main			text
+&foo=0x40058d		foo 			text
+&str=0x7ffe7e3e3c38     str (pointer)	        Stack
+&a=0x601048             a                       Data 
+&le=0x60104c	        e 			Data 
+&c=0x601064             c                       bss  
+&p=0x7ffe7e3e3c30       p (pointer)             heap
+&d=0x7ffe7e3e3c0c	d 			Stack
+&b=0x7ffe7e3e3c2c       b                       Stack   
+p=0x185e010             p			Stack	
+str=0x4006f2	 	str			Data

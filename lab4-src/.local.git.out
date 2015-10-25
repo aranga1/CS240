@@ -1,0 +1,528 @@
+[master (root-commit) 25f1396] 3 of 126
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 42 files changed, 1141 insertions(+)
+ create mode 100644 .local.git.out
+ create mode 100644 .local.total.out
+ create mode 100644 Makefile
+ create mode 100644 array.c
+ create mode 100644 array.h
+ create mode 100644 bits.c
+ create mode 100644 bits.h
+ create mode 100755 convert
+ create mode 100644 convert.c
+ create mode 100755 convert.org
+ create mode 100644 convert.org.out
+ create mode 100644 convert.out
+ create mode 100644 diff.out
+ create mode 100644 hintdump.c
+ create mode 100755 mem
+ create mode 100644 mem.c
+ create mode 100644 mymemdump.c
+ create mode 100644 mystring.c
+ create mode 100644 mystring.h
+ create mode 100644 none
+ create mode 100644 obj/orgmemdump.o
+ create mode 100755 test_array
+ create mode 100644 test_array.c
+ create mode 100755 test_array.org
+ create mode 100644 test_array.org.out
+ create mode 100644 test_array.out
+ create mode 100755 test_bits
+ create mode 100644 test_bits.c
+ create mode 100755 test_bits.org
+ create mode 100644 test_bits.org.out
+ create mode 100644 test_bits.out
+ create mode 100755 test_mystring
+ create mode 100644 test_mystring.c
+ create mode 100755 test_mystring.org
+ create mode 100644 test_mystring.org.out
+ create mode 100644 test_mystring.out
+ create mode 100755 testall
+ create mode 100755 testmemdump
+ create mode 100644 testmemdump.c
+ create mode 100644 testmemdump.out
+ create mode 100644 total.out
+ create mode 100644 total.txt
+[master c37a57e] 3 of 126
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 80 insertions(+), 21 deletions(-)
+[master 8f4374a] 3 of 126
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 37 insertions(+), 20 deletions(-)
+[master ef2c14d] 3 of 116
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 57 insertions(+), 40 deletions(-)
+[master 975a4e3] 3 of 102
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 65 insertions(+), 48 deletions(-)
+[master 0c1871f] 3 of 100
+ Committer: CS24000 Account <cs240@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 41 insertions(+), 24 deletions(-)
+[master 8d15841] 9 of 100
+ Committer: Aakash B Ranga <aranga@sslab08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 17 files changed, 156 insertions(+), 35 deletions(-)
+ create mode 100644 endian.c
+ create mode 100644 sections.c
+ rewrite test_array (85%)
+[master 92d0e1e] 12 of 100
+ Committer: Aakash B Ranga <aranga@sslab08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 44 insertions(+), 24 deletions(-)
+[master c857cf9] 33 of 100
+ Committer: Aakash B Ranga <aranga@sslab08.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 13 files changed, 159 insertions(+), 39 deletions(-)
+ rewrite test_mystring (77%)
+[master 7cfb92e] 33 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 11 files changed, 54 insertions(+), 25 deletions(-)
+[master ede8a5d] 36 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 63 insertions(+), 46 deletions(-)
+[master 2ce7d25] 36 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 41 insertions(+), 22 deletions(-)
+[master 2a6afb4] 36 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 37 insertions(+), 20 deletions(-)
+[master ccd3ff3] 36 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 48 insertions(+), 31 deletions(-)
+[master 8388338] 36 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 47 insertions(+), 30 deletions(-)
+[master 2021ef8] 36 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 37 insertions(+), 46 deletions(-)
+[master caddc39] 39 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 69 insertions(+), 26 deletions(-)
+[master eb6962b] 54 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 9 files changed, 104 insertions(+), 35 deletions(-)
+ rewrite test_bits (70%)
+[master e2d031e] 54 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 10 files changed, 102 insertions(+), 33 deletions(-)
+ rewrite convert (86%)
+ rewrite convert.c (83%)
+ rewrite testmemdump.out (82%)
+[master 7b80613] 54 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 40 insertions(+), 20 deletions(-)
+ rewrite testmemdump.out (65%)
+[master b7bafa0] 54 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 38 insertions(+), 20 deletions(-)
+ rewrite testmemdump.out (65%)
+[master 2820033] 62 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 42 insertions(+), 24 deletions(-)
+ rewrite testmemdump.out (65%)
+[master 8076fc8] 82 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 50 insertions(+), 31 deletions(-)
+ rewrite testmemdump.out (65%)
+[master 9b93147] 82 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 68 insertions(+), 21 deletions(-)
+ rewrite mem (82%)
+ rewrite testmemdump.out (65%)
+[master 1372a72] 82 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 40 insertions(+), 21 deletions(-)
+[master 98c7d3a] 82 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 41 insertions(+), 32 deletions(-)
+ rewrite mem (83%)
+ rewrite testmemdump.out (88%)
+[master e116297] 82 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 50 insertions(+), 23 deletions(-)
+ rewrite mem (82%)
+ rewrite testmemdump.out (65%)
+[master 14acedc] 82 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 40 insertions(+), 21 deletions(-)
+[master e1bac96] 82 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 7 files changed, 45 insertions(+), 28 deletions(-)
+ rewrite testmemdump.out (88%)
+[master 841d8db] 89 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 48 insertions(+), 30 deletions(-)
+ rewrite testmemdump.out (81%)
+[master f431ded] 100 of 100
+ Committer: Aakash B Ranga <aranga@data.cs.purdue.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 49 insertions(+), 31 deletions(-)
+ rewrite testmemdump.out (74%)
